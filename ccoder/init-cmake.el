@@ -1,3 +1,4 @@
+;;; MyCDevelopmentEvironment:Emacs cc-mode cmake-mode cpputils-cmake flycheck flymake company,required cmake clang gcc g++
 ;; required, setup cpputils-cmake
 (add-hook 'c-mode-common-hook
           (lambda ()
