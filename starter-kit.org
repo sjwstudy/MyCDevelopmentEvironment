@@ -392,6 +392,11 @@ everyone using the starter kit.
   (starter-kit-load "starter-kit-registers.org")
   #+end_src
 
+- yasnippet is yet another snippet expansion system for Emac
+  #+begin_src emacs-list
+  (starter-kit-load "starter-kit-yasnippet.org")
+  #+end_src
+
 ** Load User/System Specific Files
 *** System/User specific customizations
 You can keep system- or user-specific customizations here in either

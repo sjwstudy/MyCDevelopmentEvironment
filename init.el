@@ -1,4 +1,4 @@
-;;; init.el --- Where all the magic begins
+;;; init.el --- Where all the magic begins 
 ;;
 ;; Part of the Emacs Starter Kit
 ;;
@@ -25,5 +25,8 @@
        '(require 'org))
     ;; load up the starter kit
     (org-babel-load-file (expand-file-name "starter-kit.org" starter-kit-dir))))
+
+;; enable flycheck mode in global
+(add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;;; init.el ends here

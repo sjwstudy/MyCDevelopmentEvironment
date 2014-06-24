@@ -4,33 +4,34 @@
 ## misc
 loaddefs.el*
 auto-save-list
-custom.el
+## custom.el
 places
 .svn
 .DS_Store
 tramp
 
 ## directories
+auto-save-list/*
 backups/*
 thumbs/*
 oddmuse/*
 eshell/*
 image-dired/*
 elim/*
-doc/*
-elpa/*
-src/*
+## doc/*
+## elpa/*
+## src/*
 themes/*
 url/*
 
 ## exported and encrypted files
 *gpg
-*el
-*elc
-*html
+## *el
+## *elc
+## *html
 *tex
-*pdf
-*txt
+## *pdf
+## *txt
 
 ## org stuff
 .org-id-locations
